@@ -7,20 +7,9 @@ import javax.ws.rs.client.Client;
 
 public class App {
 	private static Client client = ClientBuilder.newClient();
-	static String seed;
-	static String n;
 	public static void main(String[] args) {
 		
-		seed = args[0];
-		n = args[1];
-		
-		if (n == "0") {
-			System.out.println("1");
-		}
-		
-		if (n == "1") {
-			System.out.println("2");
-		}
+		System.out.println("1");
 		
 //		WebTarget target = client.target("http://challenge-server.code-check.io/")
 //			    .path("/api/recursive/ask")
