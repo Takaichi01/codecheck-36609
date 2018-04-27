@@ -9,6 +9,7 @@ public class App {
 	private static Client client = ClientBuilder.newClient();
 	public static void main(String[] args) {
 		
+		System.out.println(args);
 		System.out.println("1");
 		
 //		WebTarget target = client.target("http://challenge-server.code-check.io/")
