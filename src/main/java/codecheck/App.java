@@ -9,8 +9,8 @@ public class App {
 	private static Client client = ClientBuilder.newClient();
 	public static void main(String[] args) {
 		
-		System.out.println(args[0]);
-		System.out.println("1");
+		if(args[1].equals("0"))System.out.println("1");
+		if(args[1].equals("1"))System.out.println("2");
 		
 //		WebTarget target = client.target("http://challenge-server.code-check.io/")
 //			    .path("/api/recursive/ask")
