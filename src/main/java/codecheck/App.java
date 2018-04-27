@@ -10,7 +10,7 @@ public class App {
 	public static void main(String[] args) {
 		
 		if(args[1].equals("0"))System.out.println("1");
-		if(args[1].equals("1"))System.out.println("2");
+		if(args[1].equals("2"))System.out.println("2");
 		
 //		WebTarget target = client.target("http://challenge-server.code-check.io/")
 //			    .path("/api/recursive/ask")
